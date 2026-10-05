@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>汐止拱北殿 - 百年古剎數位導覽</title>
+  <style>
+    :root {
+      --primary-color: #8B1A1A;
+      --bg-color: #FAFAFA;
+      --text-color: #333333;
+      --card-bg: #FFFFFF;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    .header {
+      background-color: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    .header p {
+      margin: 0.5rem 0 0;
+      opacity: 0.9;
+      font-size: 0.95rem;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .card h2 {
+      color: var(--primary-color);
+      font-size: 1.2rem;
+      margin-top: 0;
+      border-bottom: 2px solid var(--primary-color);
+      padding-bottom: 0.3rem;
+      display: inline-block;
+    }
+    .timeline {
+      border-left: 2px solid var(--primary-color);
+      padding-left: 1rem;
+      margin-left: 0.5rem;
+    }
+    .timeline-item {
+      margin-bottom: 1rem;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -1.35rem;
+      top: 0.3rem;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--primary-color);
+    }
+    .year {
+      font-weight: bold;
+      color: var(--primary-color);
+      font-size: 0.9rem;
+    }
+    .footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>汐止拱北殿</h1>
+    <p>三秀山百年古剎 ‧ 歷史與建築導覽</p>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h2>廟宇緣起</h2>
+      <p>汐止拱北殿（俗稱汐止仙公廟）創建於日治時期光緒 27 年（1901 年），位在三秀山半山腰，主祀孚佑帝君（呂洞賓）。廟宇融合傳統閩南宮廟藝術與日式庭園風貌，為北臺灣著名的百年宗教與賞楓勝地。</p>
+    </div>
+
+    <div class="card">
+      <h2>建殿百年沿革</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="year">1901 年（光緒 27 年）</div>
+          <div>信徒自木柵指南宮分靈孚佑帝君至汐止奉祀，後於三秀山現址搭建草寮小廟，命名「拱北殿」。</div>
+        </div>
+        <div class="timeline-item">
+          <div class="year">1906 年（明治 39 年）</div>
+          <div>地方善信募款將草寮改建為木造殿宇，奠定廟宇初規。</div>
+        </div>
+        <div class="timeline-item">
+          <div class="year">1927 年（昭和 2 年）</div>
+          <div>改以磚石構造重建，提升構造規模與耐用度。</div>
+        </div>
+        <div class="timeline-item">
+          <div class="year">1960–1966 年（民國 49–55 年）</div>
+          <div>進行重大改建工程，陸續建造正殿、後殿與兩翼樓閣，定型今日所見的大氣建築規模。</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>三大亮點特色</h2>
+      <ul>
+        <li><strong>彼岸橋與日式石燈籠：</strong>參道入口呈現濃厚的東洋禪意風情，為歷史留下的風格印記。</li>
+        <li><strong>後山雙拱橋：</strong>造型優美典雅的兩孔石砌拱橋，秋冬時期紅葉飄落，為全台知名的賞楓名勝。</li>
+        <li><strong>三教合一信仰：</strong>主祀呂仙祖，配祀釋迦牟尼佛與至聖先師孔子，展現台灣傳統包容的宗教文化。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>歡迎造訪 汐止拱北殿 ‧ 祝您平安順心</p>
+  </div>
+
+</body>
+</html>
